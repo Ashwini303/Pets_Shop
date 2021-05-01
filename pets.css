@@ -1,0 +1,339 @@
+
+    @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: oblique 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 2%;
+  font-size: 100px;
+  width: 100%;
+  animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+#panel, #flip{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background: radial-gradient(rgb(207, 64, 64), rgb(30, 5, 173));
+    color: rgb(248, 238, 96);
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+
+#flip{
+    border-radius: 15px;
+    border-color: rgb(243, 178, 178);
+    width:20%;
+    border-style:dotted;
+    border-width: 4px;
+}
+#panel{
+    padding: 50px;
+    display: none;
+}
+
+#submit{
+    border: 4px dashed black;
+    width: 80px;
+    font-size: 20px;
+    background-color:rgb(247, 125, 151);
+    color: black !important;
+}
+
+#dog img:hover{
+    transform: scale(1.2);
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+button.btn{
+    background:black;
+    color: rgb(255, 221, 255);
+}
+
+.jumbotron{
+    height: 60px;
+    padding:0;
+    color: #2e2020;
+    border:2px solid #fed801;
+}
+
+footer{
+    color: black;
+    background: #FE4A70;
+}
+hr {
+    border:1px solid white;
+}
+
+.social a{
+    font-size: 2.5em;
+    padding: 0.5rem;
+}
+
+.fa-facebook{
+    color: black;
+}
+.fa-twitter{
+    color: black;
+}
+.fa-linkedin{
+    color: black;
+}
+.fa-instagram{
+    color: black;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover
+.fa-instagram:hover{
+    color:#d5d5d5;
+}
+
+.card{
+    width: 400px;
+    margin-left: 60px;
+    padding:20px;
+}
+
+.rounded-circle{
+    background-color: #fed801;
+    width:60px;
+    height:60px;
+}
+
+body{
+    background-image: url("giphy.webp");
+}
+
+
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #e41e49;
+    border-radius: 30px;
+    padding: 10px;
+    
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:rgb(229, 255, 0);
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+ body#whole{
+     margin:0;
+     padding:0;
+     width:100%;
+     height:100%;
+ }
+
+ .change{
+     height:100vh;
+     width:100%;
+     background-image: url("image6.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+
+     animation-name: animate;
+     animation-direction: alternate-reverse;
+     animation-duration:30s;
+     animation-fill-mode: forwards ;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+ @keyframes animate{
+     0%{
+         background-image: url("image8.jpg");
+     }
+     20%{
+        background-image: url("image2.jpg");
+    }
+    10%{
+        background-image: url("image1.jpg");
+    }
+    20%{
+        background-image: url("image4.jpg");
+    }
+    40%{
+        background-image: url("image11.jpg");
+    }
+    60%{
+        background-image: url("image7.jpg");
+    }
+    80%{
+        background-image: url("image9.jpg");
+    }
+    100%{
+        background-image: url("image5.jpg");
+    }
+ }
+ 
+.searchBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    padding: 5px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+  padding: 5px;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    padding: 5px;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    padding: 5px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+h2{
+    text-decoration: underline;
+    color:navy;
+}
